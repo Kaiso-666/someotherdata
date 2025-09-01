@@ -1,0 +1,49 @@
+<html>
+    <head><title>Forms & Frames</title></head>
+    <body bgcolor="aquamarine">
+    <!--CSS Styles by https://www.cssportal.com/css-style-editor/--> 
+        <font face="Arial">
+        <header>
+            <h1>Forms & Frames by K.M</h1>
+        </header>
+        <hr>
+        <h2>Basic Form (all inputs)</h2>
+        <form action="" style="margin-left: 25px; background-color: rgb(23, 228, 159);padding-left: 15px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px; border-top-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-bottom-style: solid;border-right-width: 1px;border-right-style: solid;border-left-width: 1px;border-left-style: solid;"> 
+            Text Box <input type="text" name="tbox" placeholder="Text Here"><br>
+            Button <input type="button" name="btn" value="Button"><br>
+            Checkbox <input type="checkbox" name="cbox"><br>
+            Radio Button <input type="radio" name="rbtn"><br>
+            Password Box <input type="password" name="pbox" placeholder="Password Here"><br>
+            Selection Box <select name="select">
+                <option>option 1</option>
+                <option>option 2</option>
+            </select> - Can be modified to be a Combo Box & Multi Select Box
+            <br>Text Area (Multiline)<textarea placeholder="Enter text here..."></textarea> - Click & Drag Triangle in the Corner to resize <br>
+            Reset Button <input type="reset"><br>
+            Sumbit Button <input type="submit" onclick="alert('Submitted!')"><br>
+        </form>
+        <hr>
+        <h2>Example Login Form</h2>
+        <form action="" style="margin-left: 25px; background-color: rgb(23, 228, 159);padding-left: 15px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px; border-top-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-bottom-style: solid;border-right-width: 1px;border-right-style: solid;border-left-width: 1px;border-left-style: solid;"> 
+            Username <input type="text" name="username" placeholder="Username Here"> or Email <input type="text" name="email" placeholder="Email Here"><br>
+            Password <input type="password" name="password" placeholder="Password Here"><br>
+            Forgot <a href="">Username</a> or <a href="">Password</a>?<br><br>
+            <input type="reset" value="Clear">
+            <input type="submit" value="Login" onclick="alert('Successfully Logged In! (Did nothing)')">
+        </form>
+        <hr>
+        <h2>Example Register Form</h2>
+        <form action="" style="margin-left: 25px; background-color: rgb(23, 228, 159);padding-left: 15px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px; border-top-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-bottom-style: solid;border-right-width: 1px;border-right-style: solid;border-left-width: 1px;border-left-style: solid;"> 
+            First Name <input type="text" name="fname" placeholder="First Name Here">
+            Last Name <input type="text" name="lname" placeholder="Last Name Here"><br>
+            Email <input type="text" name="email" placeholder="Email Here"><br>
+            Username <input type="text" name="username" placeholder="Username Here"><br>
+            Password <input type="password" name="password" placeholder="Password Here"><br>
+            Confirm Password <input type="password" name="cpassword" placeholder="Confirm Password Here"><br>
+            <input type="checkbox" name="terms"> I agree to the <a href="">Terms & Conditions</a> and <a href="">Privacy Policy</a><br><br>
+            <input type="reset" value="Clear">
+            <input type="submit" value="Register" onclick="alert('Successfully Registered! (Did nothing)')">
+        </form>
+        </font>
+    </body>
+</html>
